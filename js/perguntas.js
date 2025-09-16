@@ -1,23 +1,93 @@
 export const perguntas = [
     {
-        enunciado: "pergunta 1", //a pergunta
-        alternativas; [
-        {
-            texto: "nike", //primeira alternativa
-            afirmacao: [
-                "vocẽ tem bom gosto", //comentario para a resposta 
-                "afirmação 2"        //segundo comentario
-            ],
-        },
-        {
+       enunciado: "você prefere tody ou nescau", //a pergunta
+       alternativas; [
+           {
+               texto: "nike", //primeira alternativa
+               afirmacao: [
+                   "vocẽ tem bom gosto", //comentario para a resposta 
+                   "afirmação 2"        //segundo comentario
+               ],
+               proxima: 1,
+           },
+           {
               texto: "adidas",
               afirmacao: [
-                "você é vaiado",
-                "você não sabe escolher"
+                 "você é vaiado",
+                 "você não sabe escolher"
               ],
+              proxima: 1,
            }
         ]
     },
+    {
+        enunciado: "peerguntas 2",
+        alternativas: [
+            {
+                texto: "nike",
+                afirmacao: [
+                    "você tem bomgosto",
+                    "afimarção 2"
+                ],
+                proxima: 2,
+            },
+            {
+                texto: "adidas",
+                afirmacao: [
+                    "você é vaiado",
+                    "você não sabe escolher"
+                ],
+                proxima: 2,
+            }
+        ]
+    },
+    {
+        enunciado:"pergunta 4",
+        alternativas: [
+            {
+                texto "nike",
+                afirmacao: [
+                    "você tem bom gosto",
+                    "afirmacao 2"
+                ],
+                proxima: 3,
+            },
+            {
+                texto: "adidas",
+                afirmacao: [
+                    "você é vaiado",
+                    "você não sabe escolher"
+                ],
+                proxima: 3,
+            }
+        ]
+    },
+    {
+        enunciado: " você prefere nike ou adidas",
+        alternativas:[
+            {
+                texto: "nike",
+                afirmacao: [
+                    "você tem bom gosto",
+                    "afirmação 2"
+                ],
+                proxima: 4,
+            },
+            { 
+                texto: "adidias",
+                afimacao: [
+                    "você é vaiado",
+                    "você não sabe escolher"
+                ],
+                proxima: 4,
+            }
+        ]
+    },
+    {
+        enunciado: "pergunta 5",
+        alternativas: [
+            {
+                
         
 
 
