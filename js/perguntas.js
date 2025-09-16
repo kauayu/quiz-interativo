@@ -87,79 +87,20 @@ export const perguntas = [
         enunciado: "pergunta 5",
         alternativas: [
             {
-                
-        
+                texto: "nike",
+                afirmacao: [
+                    "você tem bomgosto",
+                    "afimação 2"
+                ],
+            },
+            {
+                texto: "adidas",
+                afirmacao: [
+                    "você é vaiado",
+                    "você não sabe escolher",
+                ],
+            }
+        ]
+    }
+]
 
-
-                proxima: 1,
-
-
-
-
-
-
-
-                proxima: 2;
-
-
-
-
-
-
-
-
-
-
-
-
-                proxima: 2;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                proxima: 3;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                proxima: 4;
-
-
-
-
-
-
-
-                proxima: 4;
