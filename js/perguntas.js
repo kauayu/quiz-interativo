@@ -1,39 +1,39 @@
 export const perguntas = [
     {
-       enunciado: "você prefere tody ou nescau", //a pergunta
-       alternativas: [
-           {
-               texto: "nike", //primeira alternativa
-               afirmacao: [
-                   "vocẽ tem bom gosto", //comentario para a resposta 
-                   "afirmação 2"        //segundo comentario
-               ],
-               proxima: 1,
-           },
-           {
+        enunciado: "você prefere nike ou adidas", //a pergunta
+     alternativas: [
+        {
+              texto: "nike", //primeira alternativa
+              afirmacao: [
+                "vocẽ tem bom gosto", //comentario para a resposta
+                "afirmação 2"         //segundo comentario
+            ],
+            proxima: 1,
+        },
+        {
               texto: "adidas",
               afirmacao: [
-                 "você é vaiado",
-                 "você não sabe escolher"
+               "você é vaiado",
+               "você não sabe escolher"
               ],
               proxima: 1,
-           }
-        ]
+         }
+      ] 
     },
     {
-        enunciado: "peerguntas 2",
+        enunciado: "perguntas 2",
         alternativas: [
             {
                 texto: "nike",
                 afirmacao: [
-                    "você tem bomgosto",
-                    "afimarção 2"
+                    "você tem bom gosto",
+                    "afirmação 2"
                 ],
                 proxima: 2,
             },
             {
                 texto: "adidas",
-                afirmacao: [
+                afirmacao:[
                     "você é vaiado",
                     "você não sabe escolher"
                 ],
@@ -42,7 +42,49 @@ export const perguntas = [
         ]
     },
     {
-        enunciado:"pergunta 4",
+        enunciado: "pergunta 4",
+        alternativas: [
+            {
+                texto: "nike",
+            afirmacao: [
+                "vocẽ tem bom gosto", 
+                "afirmação 2"       
+            ],
+            primeira: 3,
+        },
+        {
+              texto: "adidas",
+              afirmacao: [
+                 "você é vaiado",
+                 "você não sabe escolher"
+              ],
+              proxima: 3,
+           }
+        ]
+    },
+    {
+        enunciado: "você prefere nike ou adidas",
+        alternativas: [
+            {
+                texto: "nike",
+                afirmacao: [
+                    "você tem bomgosto",
+                    "afimarção 2"
+                ],
+                proxima: 4,
+            },
+            {
+                texto: "adidas",
+                afirmacao: [
+                    "você é vaiado",
+                    "você não sabe escolher"
+                ],
+                proxima: 4,
+            }
+        ]
+    },
+    {
+        enunciado:"pergunta 5",
         alternativas: [
             {
                 texto: "nike",
@@ -58,49 +100,8 @@ export const perguntas = [
                     "você é vaiado",
                     "você não sabe escolher"
                 ],
-                proxima: 3,
-            }
-        ]
-    },
-    {
-        enunciado: " você prefere nike ou adidas",
-        alternativas:[
-            {
-                texto: "nike",
-                afirmacao: [
-                    "você tem bom gosto",
-                    "afirmação 2"
-                ],
-                proxima: 4,
-            },
-            { 
-                texto: "adidias",
-                afimacao: [
-                    "você é vaiado",
-                    "você não sabe escolher"
-                ],
-                proxima: 4,
-            }
-        ]
-    },
-    {
-        enunciado: "pergunta 5",
-        alternativas: [
-            {
-                texto: "nike",
-                afirmacao: [
-                    "você tem bomgosto",
-                    "afimação 2"
-                ],
-            },
-            {
-                texto: "adidas",
-                afirmacao: [
-                    "você é vaiado",
-                    "você não sabe escolher",
-                ],
-            }
-        ]
-    }
+             }
+         ]
+     },
 ]
-
+    
