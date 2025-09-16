@@ -1,7 +1,7 @@
 export const perguntas = [
     {
        enunciado: "você prefere tody ou nescau", //a pergunta
-       alternativas; [
+       alternativas: [
            {
                texto: "nike", //primeira alternativa
                afirmacao: [
@@ -45,7 +45,7 @@ export const perguntas = [
         enunciado:"pergunta 4",
         alternativas: [
             {
-                texto "nike",
+                texto: "nike",
                 afirmacao: [
                     "você tem bom gosto",
                     "afirmacao 2"
