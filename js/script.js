@@ -30,18 +30,18 @@ function mostraPergunta() {
     if(atual >= perguntas.length){
         mostraResultado();
         return;
-}
-perguntaAtual = perguntas [atual];
-caixaPerguntas.textCcontent = pergunetaAtual.enunciado;
-caixaAlternativas.textContent = "";
-mostraAlternativas();
+    }
+    perguntaAtual = perguntas[atual];
+    caixaPerguntas.textContent = perguntaAtual.enunciado;
+    caixaAlternativas.textContent = "";
+    mostraAlternativas();
 }
 
-function mostraAlternativas() {
-    for(const alternativa of perguntaAtual.alternativas) {
-        const botaoAlternativas = document.createElement("buton");
+function mostraAlternativas(){
+    for(const alternativa of perguntaAtual.alternativas){
+        const botaoAlternativas = document.createElement("button");
         botaoAlternativas.textContent = alternativa.texto;
-        botaoAlternativas.addEventListener("click", ()=> respostaSelecionada(alternativa));
+        botaoAlternativas.addEventListener("click", () => respostaSelecionada(alternativa));
         caixaAlternativas.appendChild(botaoAlternativas);
     }
 }
@@ -49,12 +49,12 @@ function mostraAlternativas() {
 function respostaSelecionada(opcaoSelecionada){
     const afirmacoes = aleatorio(opcaoSelecionada.afirmacao);
     historiaFinal += afirmacoes + " ";
-    if(opcaoSelecionada.proxima !== undefined) {
-        atual = opcaoSelecionada.proxima;    
-    } else {
-        mostraResultado();
-        return;
-    }
+   if(opcaoSelecionada.proxima !== undefined) {
+       atual = opcaoSelecionada.proxima;    
+   }else {
+       mostraResultado();
+       return;
+   }
     mostraPergunta();
 }
 
