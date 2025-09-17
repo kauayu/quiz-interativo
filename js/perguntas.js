@@ -1,6 +1,6 @@
 export const perguntas = [
     {
-        enunciado: "você prefere nike ou adidas", //a pergunta
+        enunciado: "vocẽ prefere vini jr ou kylian mbappé", //a pergunta
      alternativas: [
         {
               texto: "nike", //primeira alternativa
