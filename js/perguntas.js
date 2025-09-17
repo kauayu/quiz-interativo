@@ -27,7 +27,7 @@ export const perguntas = [
                 texto: "real madrid",
                 afirmacao: [
                     "você tem bom gosto",
-                    "afirmação 2"
+                    " vocẽ é um lenda e merece ser reconhecido"
                 ],
                 proxima: 2,
             },
