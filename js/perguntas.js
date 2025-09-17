@@ -50,7 +50,7 @@ export const perguntas = [
                 "vocẽ tem bom gosto", 
                 "afirmação 2"       
             ],
-            primeira: 3,
+            proxima: 3,
         },
         {
               texto: "la liga",
