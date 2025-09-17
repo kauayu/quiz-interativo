@@ -1,11 +1,11 @@
 export const perguntas = [
     {
-        enunciado: "vocẽ prefere vini jr ou kylian mbappé", //a pergunta
+        enunciado: "você prefere vini jr ou kylian mbappé", //a pergunta
      alternativas: [
         {
               texto: "vini jr", //primeira alternativa
               afirmacao: [
-                "vocẽ tem bom gosto", //comentario para a resposta
+                "você tem bom gosto", //comentario para a resposta
                 "afirmação 2"         //segundo comentario
             ],
             proxima: 1,
