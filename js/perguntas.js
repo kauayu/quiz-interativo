@@ -21,10 +21,10 @@ export const perguntas = [
       ] 
     },
     {
-        enunciado: "perguntas 2",
+        enunciado: "você prefere real madrid ou psg",
         alternativas: [
             {
-                texto: "nike",
+                texto: "real madrid",
                 afirmacao: [
                     "você tem bom gosto",
                     "afirmação 2"
@@ -32,7 +32,7 @@ export const perguntas = [
                 proxima: 2,
             },
             {
-                texto: "adidas",
+                texto: "psg",
                 afirmacao:[
                     "você é vaiado",
                     "você não sabe escolher"
@@ -42,10 +42,10 @@ export const perguntas = [
         ]
     },
     {
-        enunciado: "pergunta 4",
+        enunciado: "você prefere premier league ou la liga",
         alternativas: [
             {
-                texto: "nike",
+                texto: "premier league",
             afirmacao: [
                 "vocẽ tem bom gosto", 
                 "afirmação 2"       
@@ -53,7 +53,7 @@ export const perguntas = [
             primeira: 3,
         },
         {
-              texto: "adidas",
+              texto: "la liga",
               afirmacao: [
                  "você é vaiado",
                  "você não sabe escolher"
@@ -63,10 +63,10 @@ export const perguntas = [
         ]
     },
     {
-        enunciado: "você prefere nike ou adidas",
+        enunciado: "você prefere assistir um jogo da premier league ou da la liga",
         alternativas: [
             {
-                texto: "nike",
+                texto: "premier lague",
                 afirmacao: [
                     "você tem bomgosto",
                     "afimarção 2"
@@ -74,7 +74,7 @@ export const perguntas = [
                 proxima: 4,
             },
             {
-                texto: "adidas",
+                texto: "la liga",
                 afirmacao: [
                     "você é vaiado",
                     "você não sabe escolher"
@@ -84,10 +84,10 @@ export const perguntas = [
         ]
     },
     {
-        enunciado:"pergunta 5",
+        enunciado: "você que o var ajuda pu atrapalha o futebol europeu",
         alternativas: [
             {
-                texto: "nike",
+                texto: "ajuda",
                 afirmacao: [
                     "você tem bom gosto",
                     "afirmacao 2"
@@ -95,7 +95,7 @@ export const perguntas = [
                 proxima: 3,
             },
             {
-                texto: "adidas",
+                texto: "atrapalha",
                 afirmacao: [
                     "você é vaiado",
                     "você não sabe escolher"
